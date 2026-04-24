@@ -1,0 +1,171 @@
+<html>
+  <head>
+    <title>Pagina de jogos</title>
+    <style>
+      body {
+        font-family: "Inter", Arial, sans-serif;
+        background-color: #f5f7fa;
+        margin: 0;
+        padding: 20px;
+      }
+
+      .container {
+        background-color: #e8edf2;
+        padding: 30px;
+        border-radius: 10px;
+        max-width: 600px;
+        margin: auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .topo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      h1 {
+        background-color: #000;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 28px;
+        width: 100%;
+      }
+
+      .img-jogo {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        border-radius: 10px;
+        border: 2px solid #000;
+      }
+
+      p {
+        text-align: center;
+        color: #333;
+        font-size: 16px;
+      }
+
+      h2 {
+        text-align: center;
+        color: #333;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th {
+        background-color: #000;
+        color: white;
+        padding: 10px;
+      }
+
+      td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        font-family: Montserrat, sans-serif;
+      }
+
+      .linha-jogo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .btn {
+        padding: 8px 12px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="topo">
+        <h1>Bem-vindo à nossa página de jogos</h1>
+      </div>
+
+      <img class="img-jogo" src="img/aranha.png" />
+
+      <p>
+        A página de jogos proporciona uma experiência imersiva e empolgante para
+        os fãs do Universo Cinematográfico Marvel.
+        <br /><br />
+        Prepare-se para enfrentar desafios, salvar o mundo e viver grandes
+        aventuras ao lado dos personagens mais icônicos.
+      </p>
+
+      <h2>Jogos disponíveis</h2>
+
+      <table border="2">
+        <tr>
+          <th>Jogos</th>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="linha-jogo">
+              Marvel's Spider-Man: Miles Morales
+              <button
+                class="btn"
+                onclick="
+                  window.location.href =
+                    'https://www.playstation.com/pt-br/games/marvels-spider-man-miles-morales/'
+                "
+              >
+                Ver jogo
+              </button>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="linha-jogo">
+              Marvel's Avengers
+              <button
+                class="btn"
+                onclick="
+                  window.location.href =
+                    'https://www.playstation.com/pt-br/games/marvels-avengers/'
+                "
+              >
+                Ver jogo
+              </button>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="linha-jogo">
+              Marvel's Guardians of the Galaxy
+              <button
+                class="btn"
+                onclick="
+                  window.location.href =
+                    'https://www.playstation.com/pt-br/games/marvels-guardians-of-the-galaxy/'
+                "
+              >
+                Ver jogo
+              </button>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
